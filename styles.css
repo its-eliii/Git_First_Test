@@ -7,12 +7,10 @@ main, body {
 
 img {
     display: block;
-    max-width: 100%; /* Responsive width */
-    height: auto; /* Maintains aspect ratio */
-    margin: 0 auto 10px auto; /* Centers image and adds bottom margin */
-    background-color: #ffffff; /* White background */
-    border: 1px solid #ddd; /* Light gray border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .container-fluid {
@@ -28,7 +26,6 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-
 
 .test-log:hover, .test-log2:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
