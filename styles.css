@@ -1,8 +1,18 @@
-body {
+main, body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f7fa;
+    background-color: #ecadf1;
     margin: 0;
     padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%; /* Responsive width */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto 10px auto; /* Centers image and adds bottom margin */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .container-fluid {
@@ -10,8 +20,8 @@ body {
 }
 
 .test-log, .test-log2 {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #e47bc1;
+    border: 1px solid #f0a3d9;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
@@ -30,11 +40,6 @@ h2 {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 15px;
-}
-
-.test-log2 {
-    background-color: #e9f7fa;
-    border-color: #b2ebf2;
 }
 
 @media (max-width: 768px) {
